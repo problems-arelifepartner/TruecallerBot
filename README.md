@@ -23,3 +23,9 @@ WhatsApp Web automation: WhatsApp actively tries to block automation. Using Sele
 Truecaller API: You must have a valid premium API key and understand their API endpoints and request format.
 Running on Termux or cloud platforms: Selenium requires a headless browser (like Chrome or Firefox). You must install and configure these browsers and drivers accordingly.
 Legal and ethical considerations: Scraping or automating WhatsApp and Truecaller data may violate their terms of service. Use responsibly.
+
+Termux: Install chromium and chromedriver packages, adjust webdriver.Chrome() path accordingly.
+
+Heroku / Railway / Koyeb: Use headless Chrome buildpacks or Docker containers with Chrome installed.
+
+Replit: May have limitations running Selenium with Chrome; consider alternatives or use Replit’s web automation tools.
